@@ -1,0 +1,163 @@
+body{
+	font-family:arial;
+	font-size:15px;
+	line-height:1.5;
+	padding-bottom:0;
+	margin:0;
+	background-color:#D3D3D3;
+}
+/*global*/
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+ul{
+	padding:0;
+	margin:0;
+}
+.button-1{
+	height:25px;
+	background:orange;
+	padding-left:20px;
+	padding-right:20px;
+}
+/*header*/
+header{
+	background:#000;
+	color:white;
+	padding-top:30px;
+	border-bottom:green 3px solid;
+	min-height:70px;
+	background-image:url(lock.jpg);background-repeat:no-repeat;background-position:right;
+}
+
+header a{
+	color:white;
+	font-size:16px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+header li{
+ float:left;
+ display:inline;
+ padding:0 20px 0 20px;
+}
+header #branding{
+	float:left;
+	
+}
+header h1{
+	margin:0;
+}
+
+header nav{
+	float:right;
+	margin-top:10px;
+}
+header .highlight,header .current a{
+	color:#FF4500;
+	font-weight:bold;
+}
+header a:hover{
+		color:#D3D3D3;
+		font:weight:bold;
+}
+	
+/*motto*/
+#Motto {
+	min-height:400px;
+	background-image:url(new.jpg);background-repeat:no-repeat;background-position:center;
+	text-align:center;
+	color:white;
+}
+#Motto h1{
+	margin-top:100px;
+	font-size:55px;
+	margin-bottom:10px;
+}
+#Motto p{
+	font-size:20px;
+}
+#newsletter{
+	background:black;
+	color:white;
+	padding:10px;
+}
+#newsletter h1{
+	float:right;
+}
+#newsletter form{
+	float:right;
+	margin-top:10px;
+}
+
+/*boxes*/
+#boxes {
+	margin-top:20px;
+}
+	#boxes .box{
+		float:left;
+		width:50%;
+		text-align:center;
+	}
+	#boxes .box a{
+		color:black;
+	}
+	#boxes .box a:hover{
+		color:gray;
+		font-weight:bold;
+	}
+footer{
+	padding:10px;
+	background-color:orange;
+	margin-top:20px;
+	text-align:center;
+}
+
+#login{
+    min-height:600px;
+	background-image:url(login.jpg);background-repeat:no-repeat;background-position:center;
+	
+}
+	
+.new h1{
+    width: 30%;
+    margin-left:300px;
+	font-size:30px;
+	color: orange;
+    border:3px solid blue;
+    text-align: center;
+    padding:20px;
+    background-color: cadetblue;
+    }
+form {
+    width: 30%;
+    border: 2px solid white;
+    padding:5px;
+    color: orange;
+    margin-left:300px;
+    padding:20px;
+    font-size:20px; 
+    
+}
+
+.input input{
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border:1px solid white;
+}
+.btn {
+    padding: 2px;
+    font-size:15px;
+    margin-top:10px;
+    
+    
+}
+#login p {
+    color: blue;
+}
